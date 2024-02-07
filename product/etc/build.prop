@@ -1,0 +1,44 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Lenovo
+ro.product.product.device=TB350FU
+ro.product.product.manufacturer=LENOVO
+ro.product.product.model=TB350FU
+ro.product.product.name=TB350FU
+ro.product.build.date=Sat Jan 13 05:32:37 CST 2024
+ro.product.build.date.utc=1705095157
+ro.product.build.id=TP1A.220624.014
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=124
+ro.product.build.version.release=13
+ro.product.build.version.release_or_codename=13
+ro.product.build.version.sdk=33
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.vndk.version=33
+ro.build.characteristics=tablet
+ro.product.ab_ota_partitions=boot,system,vendor
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.config.alarm_alert=Alarm_Classic.ogg
+ro.config.notification_sound=Pollux.ogg
+ro.config.ringtone=Ring_Synth_04.ogg
+ro.config.lgsi.ui.type=TABUI
+ro.config.lgsi.ui.version=5.1
+ro.config.lgsi.region=row
+ro.config.lgsi.code.base=mtk
+ro.config.lgsi.code.version_fp=Lgsi:13:33/AOSP/TP1A.220624.021.A1/rel-15.0/20230511_252
+ro.config.lgsi.code.version_date=230511
+ro.config.lgsi.code.version_id=252
+ro.apex.updatable=true
+ro.setupwizard.rotation_locked=false
+setupwizard.theme=glif_v3_light
+ro.opa.eligible_device=true
+ro.com.google.gmsversion=13_202301
+setupwizard.feature.baseline_setupwizard_enabled=true
+# end of file

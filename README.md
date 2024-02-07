@@ -1,0 +1,20 @@
+## sys_mssi_t_64_cn_armv82_wifi_row-user 13 TP1A.220624.014 124 release-keys
+- Manufacturer: lenovo
+- Platform: common
+- Codename: TB350FU
+- Brand: Lenovo
+- Flavor: sys_mssi_t_64_cn_armv82_wifi_row-user
+- Release Version: 13
+- Kernel Version: 5.10.136
+- Id: TP1A.220624.014
+- Incremental: TB350FU_S130343_240113_ROW
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: Lenovo/TB350FU/TB350FU:13/TP1A.220624.014/S130343_240113_ROW:user/release-keys
+- OTA version: 
+- Branch: sys_mssi_t_64_cn_armv82_wifi_row-user-13-TP1A.220624.014-124-release-keys
+- Repo: lenovo/TB350FU
