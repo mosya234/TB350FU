@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByEfGid1 version="1">
+<virtualSpnOverride mccmncgid1="2343040" name="Virgin"/>
+<!-- OTULIPT copy for OTULIPT-3519 by yuanfj1 at 2023/8/30 start -->
+<virtualSpnOverride mccmncgid1="26207118006" name="1&amp;1"/>
+<virtualSpnOverride mccmncgid1="26207118004" name="1&amp;1"/>
+<virtualSpnOverride mccmncgid1="26207250109" name="1&amp;1"/>
+<!-- OTULIPT copy for OTULIPT-3519 by yuanfj1 at 2023/8/30 end -->
+</virtualSpnOverridesByEfGid1>

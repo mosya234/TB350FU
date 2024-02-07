@@ -1,0 +1,4 @@
+on boot
+  	insmod /vendor/lib/modules/wlan_sdio_reset.ko
+        insmod /vendor/lib/modules/wlan_mt7902_sdio_mt6789.ko
+  	insmod /vendor/lib/modules/btmtk_sdio_unify.ko

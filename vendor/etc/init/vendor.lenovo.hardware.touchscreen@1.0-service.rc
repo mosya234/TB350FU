@@ -1,0 +1,16 @@
+on post-fs-data
+    chown system system /sys/devices/platform/goodix_ts.0/gesture/double_en
+    chown system system /sys/devices/platform/goodix_ts.0/bigpalm
+    chown system system /sys/devices/platform/goodix_ts.0/edge_inhibition
+    chown system system /sys/devices/platform/goodix_ts.0/support_pen
+    chown system system /sys/devices/platform/goodix_ts.0/edge_gridzone
+
+service touchscreen_hal_service /vendor/bin/hw/vendor.lenovo.hardware.touchscreen@1.0-service
+    interface vendor.lenovo.hardware.touchscreen@1.0::ITouchscreen default
+    class hal
+    user system
+    group system
+    oneshot
+
+on property:sys.boot_completed=1
+     start touchscreen_hal_service

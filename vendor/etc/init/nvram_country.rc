@@ -1,0 +1,59 @@
+# MTK platform .rc configure
+
+import ${ro.vendor.rc}init.connectivity.rc
+import ${ro.vendor.rc}init.mt6789.usb.rc
+import /vendor/etc/init/hw/init.project.rc
+import /system_ext/etc/init/hw/init.aee.rc
+import /FWUpgradeInit.rc
+import /vendor/etc/init/hw/init.aee.rc
+import ${ro.vendor.rc}init.volte.rc
+import ${ro.vendor.rc}init.mal.rc
+import ${ro.vendor.rc}${ro.vendor.init.sensor.rc}
+import ${ro.vendor.rc}init.cgroup.rc
+
+# init.modem.rc must be the LAST rc file because vold.post_fs_data_done is set in it
+import ${ro.vendor.rc}init.modem.rc
+# *** DO NOT import the new rc file after this line ***
+
+
+#Tulip code for TULIP-263 by randi at 20220511 start
+on boot
+    #Tulip code for TULIP-8171 by baiyangjie at 20220804 start
+    setprop ro.product.bootimage.manufacturer ${ro.product.manufacturer}
+    #Tulip code for TULIP-8171 by baiyangjie at 20220804 end
+    chmod 0644 /vendor/bin/nvram_country
+    start nvram_country
+
+service nvram_country /vendor/bin/nvram_country
+    user root
+    group root
+    oneshot
+    disabled
+#Tulip code for TULIP-263 by randi at 20220511 end
+
+#Tulip code for TULIP-63 by luojiamiao at 20220526 start
+on property:vendor.build.fingerprint=1
+    setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint_eea}
+    setprop ro.build.fingerprint ${ro.vendor.build.fingerprint_eea}
+
+on property:vendor.build.fingerprint=2
+    setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint_ru}
+    setprop ro.build.fingerprint ${ro.vendor.build.fingerprint_ru}
+
+on property:vendor.build.fingerprint=3
+    setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint_tr}
+    setprop ro.build.fingerprint ${ro.vendor.build.fingerprint_tr}
+
+on property:vendor.build.fingerprint=4
+    setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint_ee}
+    setprop ro.build.fingerprint ${ro.vendor.build.fingerprint_ee}
+
+on property:vendor.build.fingerprint=5
+    setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint_prc}
+    setprop ro.build.fingerprint ${ro.vendor.build.fingerprint_prc}
+
+on property:vendor.build.fingerprint=0
+    setprop ro.vendor.build.fingerprint ${ro.vendor.build.fingerprint_def}
+    setprop ro.build.fingerprint ${ro.vendor.build.fingerprint_def}
+
+#Tulip code for TULIP-63 by luojiamiao at 20220526 end

@@ -1,0 +1,5 @@
+service performance_hal_service /vendor/bin/hw/vendor.lenovo.hardware.performance@1.0-service
+    interface vendor.lenovo.hardware.performance@1.0::IPerformance default
+    class hal
+    user system
+    group system

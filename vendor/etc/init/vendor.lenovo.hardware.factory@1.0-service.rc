@@ -1,0 +1,12 @@
+service factory_hal_service /vendor/bin/hw/vendor.lenovo.hardware.factory@1.0-service
+    class hal
+    user system
+    group system
+
+#Tulip_t code for OTULIPT-177 by suzhen1 at 20230323 start
+on property:vendor.temp.countrycode=*
+    setprop ro.product.countrycode ${vendor.temp.countrycode}
+
+on property:vendor.temp.countrycode=*
+    setprop ro.config.lgsi.countrycode ${vendor.temp.countrycode}
+#Tulip_t code for OTULIPT-177 by suzhen1 at 20230323 end
