@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="remove_apk" value="YouTubeKids"/>
+    <config name="language" value="en_US"/>
+    <config name="lenovo_usage_statistics_menu" value="yes"/>
+    <config name="timezone" value="Asia/Nicosia"/>
+    <!--TulipT code for OTULIPT-3296 by liudf8 at 2023.06.13 start-->
+    <config name="regional_specialty_apk" value="PlayGames;Opera;PreinstallProvider"/>
+    <config name="default_browser" value="com.opera.browser"/>
+    <!--TulipT code for OTULIPT-3296 by liudf8 at 2023.06.13 end-->
+</list>

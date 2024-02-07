@@ -1,0 +1,14 @@
+com.android.quicksearchbox
+com.android.calendar
+com.android.dreams.basic
+com.android.musicfx
+com.android.calculator2
+com.android.email
+com.android.exchange
+cn.wps.moffice_eng
+com.zui.gallery
+com.android.mms
+com.android.music
+com.opera.browser
+com.opera.preinstall
+com.google.android.apps.kids.home

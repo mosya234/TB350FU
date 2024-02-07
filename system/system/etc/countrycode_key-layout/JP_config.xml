@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <!--OTULIPNECT code for OTULIPNECT-486 by chenwei73 at 20231012 start-->
+    <config name="keyboard_layout" value="jp.co.omronsoft.iwnnime.ml_lenovo/jp.co.omronsoft.iwnnime.ml_lenovo.InputDeviceReceiver/japanese_layout"/>
+    <!--OTULIPNECT code for OTULIPNECT-486 by chenwei73 at 20231012 end-->
+</list>

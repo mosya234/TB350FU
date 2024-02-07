@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="language" value="en_IN"/>
+    <config name="date_formate_dd_mm_yyyy" value="yes"/>
+    <config name="timezone" value="Asia/Kolkata"/>
+    <!--TulipT code for OTULIPT-3296 by liudf8 at 2023.06.13 start-->
+    <config name="regional_specialty_apk" value="AppNext;PlayGames;GPay3;Opera;PreinstallProvider"/>
+    <!--TulipT code for OTULIPT-3296 by liudf8 at 2023.06.13 end-->
+</list>

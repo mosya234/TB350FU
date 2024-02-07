@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="keyboard_layout" value="com.android.inputdevices/com.android.inputdevices.InputDeviceReceiver/keyboard_layout_english_uk"/>
+</list>

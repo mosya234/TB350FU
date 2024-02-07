@@ -1,0 +1,3 @@
+#FW: create data/app-3rd
+on post-fs-data
+    mkdir /data/app-3rd 0771 system system

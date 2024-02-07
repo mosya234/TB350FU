@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+ <exception package="com.tblenovo.wallpaper">
+   <!-- External storage -->
+    <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+    <permission name="android.permission.READ_MEDIA_IMAGES" fixed="false"/>
+    <permission name="android.permission.WRITE_SECURE_SETTINGS" fixed="false"/>
+ </exception>
+</exceptions>

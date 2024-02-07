@@ -1,0 +1,6 @@
+#Need to do re-adapted different Platforms
+on boot
+    chmod 0777 /sys/devices/platform/soc/mt_usb/otgenable
+    chown system system /sys/devices/platform/soc/mt_usb/otgenable
+    chmod 0777 /sys/devices/platform/soc/mt_usb/otgenable
+    chown system system /sys/devices/platform/soc/mt_usb/otgenable
